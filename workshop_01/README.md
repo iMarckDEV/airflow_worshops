@@ -18,7 +18,7 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.y
 *Step 2*
 Run the continer:
 ```batch
-curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'
+dcoker-compose up
 ``` 
 
 ## The data
