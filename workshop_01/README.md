@@ -8,13 +8,13 @@ This is a testing to play with apache AIRFLOW 2.0:
 
 ## Getting started
 
-** Step 1 **
+*Step 1*
 In terminal get the docker compose `.yaml`
 ```batch
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'
 ``` 
 
-** Step 2 **
+*Step 2*
 Run the continer:
 ```batch
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'
