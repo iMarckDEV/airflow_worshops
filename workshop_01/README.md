@@ -14,6 +14,7 @@ In terminal get the docker compose `.yaml`
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'
 ``` 
 
+
 *Step 2*
 Run the continer:
 ```batch
