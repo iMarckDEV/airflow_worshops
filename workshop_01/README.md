@@ -20,6 +20,11 @@ Run the continer:
 docker-compose up
 ``` 
 
+It takes some time to up the continer then in your webbrowser at port 8080, will be the service.
+```batch
+http://localhost:8080/
+``` 
+
 ## The data
 
 
