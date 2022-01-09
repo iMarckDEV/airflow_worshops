@@ -27,7 +27,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 docker-compose up airflow-init
 docker-compose up
 ``` 
-![setup ](/screenshots/1_running.png)
+![setup ](screenshots/1_running.png)
 
 It takes some time to up the continer then in your webbrowser at port 8080, will be the service.
 ```batch
