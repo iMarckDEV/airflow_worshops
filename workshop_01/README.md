@@ -20,6 +20,15 @@ Run the continer:
 docker-compose up
 ``` 
 
+Sometimes the code doesn't run the continer so try with this in linux's terminal :
+```batch
+mkdir -p ./dags ./logs ./plugins
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+docker-compose up airflow-init
+docker-compose up
+``` 
+![setup ](/screenshots/1_running.png)
+
 It takes some time to up the continer then in your webbrowser at port 8080, will be the service.
 ```batch
 http://localhost:8080/
