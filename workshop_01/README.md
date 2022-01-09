@@ -50,12 +50,22 @@ So now to test another thing, list all the continers
 ```batch
 docker ps
 ```
-and search the id of the webserver to get in:
+and search the id of the webserver to get in and if you need change the `airflow.cfg` file:
 
 ```batch
 docker exec -it id bash
 ```
 
+Or change the configuration directly in the `yaml`
+
+and for example a change could be, not get examples and less timming:
+
+[ref](https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html#webserver)
+
+```yaml
+AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'false'
+AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: 100
+```
 
 ## The data
 
