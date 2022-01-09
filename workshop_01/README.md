@@ -37,6 +37,16 @@ And you'll find a login like this:
 
 ![setup ](screenshots/2_.png)
 
+```batch
+user:airlfow
+pass:airflow
+```
+
+And will show you some DAGs preloaded.
+
+![setup ](screenshots/3_.png)
+
+
 ## The data
 
 
