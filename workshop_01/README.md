@@ -33,6 +33,9 @@ It takes some time to up the continer then in your webbrowser at port 8080, will
 ```batch
 http://localhost:8080/
 ``` 
+And you'll find a login like this:
+
+![setup ](screenshots/2_.png)
 
 ## The data
 
