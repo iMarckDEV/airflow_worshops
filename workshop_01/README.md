@@ -46,6 +46,16 @@ And will show you some DAGs preloaded.
 
 ![setup ](screenshots/3_.png)
 
+So now to test another thing, list all the continers 
+```batch
+docker ps
+```
+and search the id of the webserver to get in:
+
+```batch
+docker exec -it id bash
+```
+
 
 ## The data
 
