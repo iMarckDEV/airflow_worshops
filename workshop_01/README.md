@@ -67,9 +67,24 @@ AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'false'
 AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: 100
 ```
 
-## The data
+## The DAGs
+So lets create some dummy DAGS, in this case add a file .py in the folder dags:
 
++ 0-primerdag.py
 
+```python
+with DAG(
+    dag_id="dag1",
+    description="dag1",
+    start_date=datetime(2022, 10, 31),
+    schedule_interval="@once",
+    ) as dag1:  
+        op = EmptyOperator(task_id="dummy")
+```
+
+And those DAGs'll appear there:
+
+![DAGs ](screenshots/4_.png)
 
 ## The pipeline
 
