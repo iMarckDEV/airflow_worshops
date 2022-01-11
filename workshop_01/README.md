@@ -35,7 +35,7 @@ http://localhost:8080/
 ``` 
 And you'll find a login like this:
 
-![setup ](screenshots/2_.png)
+![setup ](screenshots/2_log.png)
 
 ```batch
 user:airlfow
